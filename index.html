@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elan's Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <script>
+    // Tailwind config for dark mode toggle
+    tailwind.config = {
+      darkMode: 'class'
+    }
+  </script>
+</head>
+
+<body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-500">
+  <header class="text-center py-12">
+    <h1 class="text-4xl font-bold mb-2">👋 Hi there, I'm Elan</h1>
+    <h2 class="text-xl text-gray-600 dark:text-gray-400">AI/ML Enthusiast | Creative Developer | Data Explorer</h2>
+    <button id="theme-toggle" class="mt-4 px-4 py-2 bg-gray-800 text-white rounded dark:bg-yellow-300 dark:text-black">
+      🌗 Toggle Theme
+    </button>
+  </header>
+
+  <section class="max-w-5xl mx-auto px-4">
+    <div class="mb-12">
+      <h3 class="text-2xl font-semibold mb-4 border-b border-gray-300 dark:border-gray-700 pb-2">🧠 About Me</h3>
+      <ul class="list-disc list-inside space-y-2 text-lg text-gray-700 dark:text-gray-300">
+        <li>🤖 Passionate about Artificial Intelligence, Machine Learning, and Data Science</li>
+        <li>🎯 Building real-world applications in speech, vision, and assistive tech</li>
+        <li>🧪 Constantly experimenting through hands-on projects and hackathons</li>
+        <li>✏️ Also a skilled pencil portrait artist and freelance designer</li>
+      </ul>
+    </div>
+
+    <div class="mb-12">
+      <h3 class="text-2xl font-semibold mb-4 border-b border-gray-300 dark:border-gray-700 pb-2">🛠️ Languages & Tools</h3>
+      <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-6 place-items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="w-12 h-12 transform hover:scale-110 transition duration-300" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" class="w-12 h-12 transform hover:scale-110 transition duration-300" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="w-12 h-12 transform hover:scale-110 transition duration-300" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" class="w-12 h-12 transform hover:scale-110 transition duration-300" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="w-12 h-12 transform hover:scale-110 transition duration-300" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" class="w-12 h-12 transform hover:scale-110 transition duration-300" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" class="w-12 h-12 transform hover:scale-110 transition duration-300" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" class="w-12 h-12 transform hover:scale-110 transition duration-300" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="w-12 h-12 transform hover:scale-110 transition duration-300" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" class="w-12 h-12 transform hover:scale-110 transition duration-300" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" class="w-12 h-12 transform hover:scale-110 transition duration-300" />
+      </div>
+    </div>
+
+    <div class="mb-12">
+      <h3 class="text-2xl font-semibold mb-4 border-b border-gray-300 dark:border-gray-700 pb-2">🚀 Featured Projects</h3>
+      <ul class="space-y-2 text-gray-700 dark:text-gray-300">
+        <li>🧠 <strong>M-Sand Quality Monitoring</strong> – YOLOv5 + CNN for sand classification</li>
+        <li>🚘 <strong>License Plate Recognition (ALPR)</strong> – YOLOv5 & CNN based recognition system</li>
+        <li>🤟 <strong>Sign Language Translator</strong> – Real-time gesture recognition & translation</li>
+        <li>🎙️ <strong>Speech-to-Text App</strong> – Multilingual transcription & waveform UI</li>
+      </ul>
+    </div>
+
+    <div class="mb-12">
+      <h3 class="text-2xl font-semibold mb-4 border-b border-gray-300 dark:border-gray-700 pb-2">💡 Other Projects</h3>
+      <ul class="space-y-2 text-gray-700 dark:text-gray-300">
+        <li>🐾 Pet Simulator Game – Java Swing virtual pet game</li>
+        <li>🗳️ Online Voting System – Java + MySQL secure voting platform</li>
+        <li>🍽️ Restaurant Management – Flask-based order and kitchen tracker</li>
+        <li>🌾 FAMILY FARMER – Direct-to-consumer organic market app</li>
+      </ul>
+    </div>
+
+    <div class="mb-12 text-center">
+      <h3 class="text-2xl font-semibold mb-4">🌐 Connect With Me</h3>
+      <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
+        <a href="mailto:elangokandhasamy284@gmail.com" class="hover:text-blue-400"><i class="ph-envelope-simple-bold text-2xl"></i> Email</a>
+        <a href="www.linkedin.com/in/elango-kandhasamy-7a8a40347" class="hover:text-blue-400"><i class="ph-linkedin-logo-bold text-2xl"></i> LinkedIn</a>
+        <a href="https://github.com/elan026" class="hover:text-blue-400"><i class="ph-github-logo-bold text-2xl"></i> GitHub</a>
+      </div>
+    </div>
+
+    <footer class="text-center text-gray-500 text-sm py-4">
+      ⭐️ "Curiosity, code, and creativity — that's my way of building a better tomorrow." ⭐️<br>
+      🌐 Hosted with ❤ on <a href="https://vercel.com" class="text-blue-500 hover:underline">Vercel</a> or <a href="https://pages.github.com" class="text-blue-500 hover:underline">GitHub Pages</a>
+    </footer>
+  </section>
+
+  <script>
+    const toggleBtn = document.getElementById('theme-toggle');
+    toggleBtn.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+    });
+  </script>
+</body>
+
+</html>
